@@ -39,6 +39,12 @@ remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
   - github-pages
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
