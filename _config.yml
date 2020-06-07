@@ -46,6 +46,9 @@ plugins:
   - kramdown
   - rouge
 
+# Testing permalink to try and fix 404s on GHP
+permalink: pretty
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
