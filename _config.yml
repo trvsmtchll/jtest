@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This site is here to help people solve Enterprise cloud 
   using the Aviatrix Terraform Provider
 baseurl: "/jtest" # the subpath of your site, e.g. /blog
-url: "https://trvsmtchll.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://multicloud.us" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -38,6 +38,7 @@ github_username:  jekyll
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
+  - github-pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
