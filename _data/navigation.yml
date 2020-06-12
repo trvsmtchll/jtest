@@ -5,23 +5,15 @@
   dropdown:
     - name: OCI-Azure Transit
       link: /pages/oci-azure-basic/
-    - name: AWS-Azure Transit
-      link: /oci-azure-basic/
-    - name: AWS-GCP Transit
-      link: /oci-azure-basic/
-    - name: And so on..
-      link: /oci-azure-basic/
+    - name: AWS-GCP Transit (SaaS)
+      link: /pages/aws-gcp-saas/
 - name: Transit FireNet
   link: /#
   dropdown:
     - name: Check Point AWS
       link: /pages/checkpoint-aws/
     - name: Palo Alto Azure
-      link: /pages/checkpoint-aws/
-    - name: Palo Alto AWS
-      link: /checkpoint-aws/
-    - name: And so on..
-      link: /checkpoint-aws/
+      link: /pages/pan-azure/
 - name: User VPN
   link: /#
   dropdown:
@@ -29,8 +21,6 @@
       link: /pages/oci-user-vpn/
     - name: AWS User VPN Okta SAML
       link: /pages//oci-user-vpn/
-    - name: Landing Test
-      link: /landing/
 - name: MCNA
   link: /#
   dropdown:

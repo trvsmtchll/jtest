@@ -10,13 +10,14 @@ items:
     call_to_action_name: Go
     call_to_action_link: /controller-launch/README/
   - title: Browse and Deploy Solutions
-    subtitle: Look through the top menu
+    subtitle: Look through the menu
     icon: fa-cogs
     description: >
-      Quickly deploy one of our cloud networking solutions.
-      Find one you like, and make it your own.
+      Quickly deploy solutions.
+      Find one you like and make it your own.
+      Fast Track POCs and take a victory lap.
     call_to_action_name: Go
-    call_to_action_link: /index/
+    call_to_action_link: /pages/landing/
   - title: Learn more about what we do
     subtitle: See what's possible with Aviatrix
     icon: fa-film

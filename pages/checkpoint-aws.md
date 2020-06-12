@@ -5,7 +5,7 @@ layout: page
 show_sidebar: false
 ---
 
-## Description
+## Summary
 
 This example will build a transit firenet (Aviatrix Transit) including everything needed to run it.
 
@@ -17,13 +17,15 @@ This example will build a transit firenet (Aviatrix Transit) including everythin
 
 - Aviatrix Controller with Access Account configured
 - Subscription through AWS Marketplace for the NGFW Vendor product (CheckPoint)
-  
-## Runbook
+
+## Getting Started
+
+The code for this example can be found [here.](https://github.com/AviatrixSystems/terraform-solutions/tree/master/solutions/transit-firenet/checkpoint-aws)
 
 - Modify terraform.tfvars with values for **your** Controller (examples for common firewall images are there)
-- terraform init
-- terraform plan
-- terraform apply
-- terraform destroy 
+- ```terraform init```
+- ```terraform plan```
+- ```terraform apply```
+- To Destroy ```terraform destroy```
 
-### This automation will take a while to run (around 30-40 minutes), you can monitor what's getting provisioned in your terminal or watch in the Controller 
+### This will take **~40 minutes** to run, observe in the Controller UI or terminal. 
