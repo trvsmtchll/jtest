@@ -1,28 +1,27 @@
 style: is-light
 height: is-medium
 items:
-  - title: Example callout 1
-    subtitle: Example subtitle 1
-    icon: fa-space-shuttle
+  - title: Launch Controller
+    subtitle: Establish control plane
+    icon: fa-fighter-jet
     description: >
-      The example description text goes here and can be multiple lines.
-      For example, such as this. 
-    call_to_action_name: Call to action 1
-    call_to_action_link: /page-1/
-  - title: Example callout 2
-    subtitle: Example subtitle 2
-    icon: fa-wrench
+      Launch an Aviatrix Controller from your cloud Marketplace.
+      Takes about 30 minutes. 
+    call_to_action_name: Go
+    call_to_action_link: /controller-launch/README/
+  - title: Browse and Deploy Solutions
+    subtitle: Look through the top menu
+    icon: fa-cogs
     description: >
-      The example description text goes here and can be multiple lines.
-      For example, such as this.
-    call_to_action_name: Call to action 2
-    call_to_action_link: /page-2/
-  - title: Example callout 3
-    subtitle: Example subtitle 3
-    icon: fa-github
-    icon_brand: true
+      Quickly deploy one of our cloud networking solutions.
+      Find one you like, and make it your own.
+    call_to_action_name: Go
+    call_to_action_link: /index/
+  - title: Learn more about what we do
+    subtitle: See what's possible with Aviatrix
+    icon: fa-film
     description: >
-      The example description text goes here and can be multiple lines.
-      For example, such as this.
-    call_to_action_name: Call to action 3
-    call_to_action_link: /page-3/
+      See for yourself from networking experts what is possible.
+      Build any of it with our Terraform Provider.
+    call_to_action_name: Go
+    call_to_action_link: /pages/mcna-video-series/

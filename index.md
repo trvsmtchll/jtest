@@ -1,35 +1,22 @@
 ---
-title: Aviatrix Terraform Solutions
-subtitle: Welcome to Aviatrix Terraform Solutions!
 layout: page
+title: Aviatrix Terraform Solutions
+subtitle: Welcome to the Aviatrix Terraform Solutions GitHub pages!
+hero_height: is-medium
 show_sidebar: false
+callouts: example_callouts
 ---
 
-## Summary
+## Site Summary
 
-This repository contains various examples of Aviatrix solutions integral to **MCNA (Multicloud Network Architecture)** implemented with Terraform. In general this is intended to assist you with building **_what you need_** or getting very close in the **_shortest_** amount of time.
-
-## Prerequisites
-
-- Understanding of Terraform, how to setup your environment to use it and the Terraform workflow ```init, plan, apply, destroy```
-- Understanding of the files associated with Terraform, including ```main.tf, variables.tf, terraform.tfvars``` and how to make changes needed for your requirements.
+The [Aviatrix Terraform-Solutions GitHub repository](https://github.com/AviatrixSystems/terraform-solutions) contains various examples of Aviatrix solutions integral to **MCNA (Multicloud Network Architecture)** implemented with Terraform. In general this is intended to assist you with building **_what you need_** or getting very close in the **_shortest_** amount of time.
+Reference [Aviatrix Documentation](https://docs.aviatrix.com/) for more detail as needed; monitor the [Aviatrix Release Notes](https://docs.aviatrix.com/HowTos/UCC_Release_Notes.html) and the [Aviatrix Terraform Provider](https://www.terraform.io/docs/providers/aviatrix/index.html) to stay up to date with the latest. The GitHub pages are here to help you get orientated.
 
 ## Getting Started
 
-If you are new to Aviatrix the first thing you will need to do is launch a Controller. You may be operating in one Cloud today most organizations plan to operate in many *(Multicloud)*. Typically organizations will have a *Primary* Cloud where governance and other shared processes are centralized in. Wherever you are (AWS,Azure,OCI,GCP) is fine. 
+If you are new to Aviatrix the first thing you will need to do is launch a Controller. You may be operating in one Cloud today many organizations operate in in more than one cloud or are planning to **_(Multicloud)_**. Many organizations have a **_Primary Cloud_** where governance and other shared processes are centralized in, have run into limitations, or are looking to expand.
 
-**One** Controller is all you need to deploy the solutions.
+**Aviatrix dramatically accelerates multicloud strategies and overcomes native limitations in individual cloud providers no matter where you are in your Cloud Journey. Try out some of the Terraform Solutions here and see for yourself. Check out the [Aviatrix website](https://aviatrix.com/) to see what our customers are saying.**
 
-Take a look in the [controller-launch](./controller-launch) directory and launch one yourself.
-
-## Solutions
-
-Aviatrix has a number of workflows to achieve advanced Cloud Networking configurations AKA **(use cases)**. You can read more about them [here](https://docs.aviatrix.com/) or attend one of our live [events](https://aviatrix.com/events/).
-
-The definition of a **Solution** in the scope of this repository is the Terraform code required to implement one or more of the **use cases** available through the [Aviatrix Terraform Provider](https://www.terraform.io/docs/providers/aviatrix/index.html).
-
-To implement any of the **Solutions** you will need to launch a Controller **first**.
-
-
-
+**One** Aviatrix Controller is all you need to deploy in any major cloud provider.
 

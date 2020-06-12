@@ -34,6 +34,8 @@ OpenVPN deployment to the target VCN is automated, in addition to onboarding the
 
 ## Getting Started
 
+The code is located [here.](https://github.com/AviatrixSystems/terraform-solutions/tree/master/solutions/vpn/oci-user-vpn)
+
 - Modify ```terraform.tfvars``` to reflect your Controller details and the name of the OCI Access Account defined there.
 - Identify the target vcn, capture it's name and the public subnet CIDR. You can do this through the OCI Console.
 - Modify ```terraform.tfvars``` to reflect your oci vcn name and public subnet cidr.

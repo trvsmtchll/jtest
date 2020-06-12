@@ -4,7 +4,7 @@
   link: /#
   dropdown:
     - name: OCI-Azure Transit
-      link: /oci-azure-basic/
+      link: /pages/oci-azure-basic/
     - name: AWS-Azure Transit
       link: /oci-azure-basic/
     - name: AWS-GCP Transit
@@ -15,9 +15,9 @@
   link: /#
   dropdown:
     - name: Check Point AWS
-      link: /checkpoint-aws/
+      link: /pages/checkpoint-aws/
     - name: Palo Alto Azure
-      link: /checkpoint-aws/
+      link: /pages/checkpoint-aws/
     - name: Palo Alto AWS
       link: /checkpoint-aws/
     - name: And so on..
@@ -26,17 +26,19 @@
   link: /#
   dropdown:
     - name: OCI User VPN
-      link: /oci-user-vpn/
+      link: /pages/oci-user-vpn/
     - name: AWS User VPN Okta SAML
-      link: /oci-user-vpn/
-    - name: And so on..
-      link: /oci-user-vpn/
+      link: /pages//oci-user-vpn/
+    - name: Landing Test
+      link: /landing/
 - name: MCNA
   link: /#
   dropdown:
     - name: Big Picture
-      link: /mcna-big-picture/
+      link: /pages/mcna-big-picture/
     - name: Interactive
-      link: /mcna-interactive/
+      link: /pages/mcna-interactive/
+    - name: Video Series
+      link: /pages/mcna-video-series/
 - name: Training
-  link: /training/
+  link: /pages/training/
